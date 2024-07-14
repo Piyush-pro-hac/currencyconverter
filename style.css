@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#dolcur{
+    height: 30px;
+    font-size: 1rem;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.amount{
+    width: 100%;
+}
+
+.amount input{
+    border: 0.5px solid grey;
+    margin: 5px;
+    border-radius: 7px;
+    width: 70%;
+    /* border: none; */
+}
+
+body{
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    min-height: 300px;
+    min-width: 20vw;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.convertbtn{
+    height: 3rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color:antiquewhite;
+    color: black;
+    cursor: pointer;
+}
+
+.form input , select {
+    width: 100%;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    padding-left: 5px;
+}
+
+.information p{
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
+.form{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-around;
+    align-items: center;
+}
+
+.form div{
+    margin: 10px;
+}
+
+.curmenu1{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.curmenu1 img{
+    width: 2rem;
+}
+
+.curmenu1 select{
+    border: none;
+}
+
+.curmenu2{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.curmenu2 img{
+    width: 2rem;
+}
+
+.errortext{
+    visibility: hidden;
+}
+
+.errorinput{
+    color: red;
+
+}
+
